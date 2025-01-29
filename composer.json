@@ -1,0 +1,22 @@
+{
+    "name": "bouquet/tp-composer",
+    "description": "Petit projet pour découvrir Composer",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bouquet\\TpComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Laurent BOUQUET",
+            "email": "laurent.bouquet@joliciel.org"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.8",
+        "symfony/dotenv": "^7.2",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
